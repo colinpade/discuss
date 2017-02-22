@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'accounts',
     'links',
+    'captcha',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -127,3 +128,7 @@ STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/login/'
+
+RECAPTCHA_PUBLIC_KEY = '6Lc0exYUAAAAADyyq8gQYUDCgbBEuuYhvqpMldMx'
+RECAPTCHA_PRIVATE_KEY = '6Lc0exYUAAAAAKmvJloG7p2paIhpIt2ebRnYg5Sl'
+NOCAPTCHA = True
